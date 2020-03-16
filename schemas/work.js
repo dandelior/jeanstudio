@@ -42,6 +42,19 @@ export default {
                 {type: 'block'},
                 {type: 'image'}
             ]
+        },
+        {
+            title: "Tipo de Cabecera",
+            name: "headerType",
+            type: "string",
+            options: {
+                list: [
+                    {title: "Blanco", value: "color-white"},
+                    {title: "Negro", value: "color-black"},
+                    {title: "Rosa", value: "color-rose"}
+            ],
+            layout: "select"
+        }
         }
     ]
 }
