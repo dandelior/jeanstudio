@@ -7,6 +7,11 @@ export default {
     // ],
     fields: [
         {
+            title: "Imagen de Presentación",
+            name: "presentationImage",
+            type: "image"
+        },
+        {
             title: "Bio",
             name: "bio",
             type: "array",
