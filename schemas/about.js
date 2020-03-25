@@ -7,6 +7,12 @@ export default {
     // ],
     fields: [
         {
+            title: "Título",
+            name: "title",
+            type: "string",
+            hidden: true
+        },
+        {
             title: "Imagen de Presentación",
             name: "presentationImage",
             type: "image"

@@ -7,6 +7,15 @@ export default {
     // ],
     fields: [
         {
+            title: "Título",
+            name: "title",
+            type: "string",
+            hidden: true,
+            // options: {
+            //     list: ['Imagenes']
+            // }
+        },
+        {
             title: "Portada Móbil",
             name: "mobileHero",
             type: "image"
