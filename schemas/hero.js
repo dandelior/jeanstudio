@@ -18,17 +18,20 @@ export default {
         {
             title: "Portada Móbil",
             name: "mobileHero",
-            type: "image"
+            type: "image",
+            description: "Tamaño recomendado: 1200x1800px"
         },
         {
             title: "Portada Tablet",
             name: "tabletHero",
-            type: "image"
+            type: "image",
+            description: "Tamaño recomendado: 1900x1800px"
         },
         {
             title: "Portada Escritorio",
             name: "DesktopHero",
-            type: "image"
+            type: "image",
+            description: "Tamaño recomendado: 1900x1000px"
         },
     ]
 }
